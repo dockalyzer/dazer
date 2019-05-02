@@ -18,11 +18,11 @@ setup(
         license                 =   "MIT",
         packages                =   find_packages(),
         install_requires        =   [
-                                      'requests==2.21.0',
-                                      'docker==3.7.0',
-                                      'speedtest-cli==2.0.2',
-                                      'pyyaml==3.13',
-                                      'urllib3==1.24.1'
+                                      'requests>=2.21.0',
+                                      'docker>=3.7.0',
+                                      'speedtest-cli>=2.0.2',
+                                      'pyyaml>=3.13',
+                                      'urllib3>=1.24.1'
                                     ],
         include_package_data    =   True,
         zip_safe                =   False)

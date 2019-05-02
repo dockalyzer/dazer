@@ -43,7 +43,6 @@ We are not responsible for any harm that it could cause to your system or Docker
 - Clair scanner: https://github.com/arminc/clair-scanner (required)
 - Valid Docker Hub credentials: https://hub.docker.com/signup (required)
 - MongoDB: https://resources.mongodb.com/getting-started-with-mongodb (recommended)
-- Redash: https://redash.io/help/open-source/setup (recommended)
 
 *Note: more recent Ubuntu versions and other Debian-based distributions should also work but they have not been tested. 
 
@@ -122,9 +121,6 @@ Important: make sure Clair scanner and the Clair database are using the "latest"
 
 ## Downloads
 An ova image (ubuntu_1604.ova) is provided if you do not want to install all the required tools.
-
-## Demo
-Pictures!
 
 ## Credits
 DAZER integrates with Clair scanner (https://github.com/arminc/clair-scanner), an extension of the analyze-local-images tool by CoreOS (https://github.com/coreos/analyze-local-images), which enables quick analysis of local Docker images with the Clair software (https://github.com/coreos/clair). Note that Clair is an open source project for the static analysis of vulnerabilities in application containers developed by CoreOS and verifies vulnerabilities against a dedicated database updated daily.

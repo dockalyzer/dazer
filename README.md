@@ -3,7 +3,7 @@
 DAZER is a tool aiming at making the study of Docker Hub's security landscape available to anyone.
 
 ## Description
-DAZER allows gathering metadata as well as vulnerability information about any typed set of Docker images (see getting started), allowing anyone to analyze Docker Hub's security landscape.
+DAZER allows gathering metadata, parental and vulnerability information about any typed set of Docker images (see getting started), allowing anyone to analyze Docker Hub's security landscape.
 
 DAZER may be used to analyze multiple typed set of Docker images such as certified, verified, official and community images.
 Note that a limited set of community images is however required, as analyzing almost 2 million images is out of this project's scope.

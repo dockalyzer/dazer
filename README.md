@@ -119,8 +119,10 @@ Important: make sure Clair scanner and the Clair database are using the "latest"
 
         mongoimport --db analyzed_images --collection images --file $HOME/DAZER/DAZER/json/vulnerabilities_2019-02-19_14-58-00.json
 
+<!--
 ## Downloads
 An ova image (ubuntu_1604.ova) is provided if you do not want to install all the required tools.
+-->
 
 ## Credits
 DAZER integrates with Clair scanner (https://github.com/arminc/clair-scanner), an extension of the analyze-local-images tool by CoreOS (https://github.com/coreos/analyze-local-images), which enables quick analysis of local Docker images with the Clair software (https://github.com/coreos/clair). Note that Clair is an open source project for the static analysis of vulnerabilities in application containers developed by CoreOS and verifies vulnerabilities against a dedicated database updated daily.

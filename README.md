@@ -36,7 +36,7 @@ Finally, the outputed Json files may be imported into a noSQL database such as M
 This software has only been tested on Ubuntu 16.04.5 LTS and MacOS Mojave (version 10.14.2) and should be used with caution.
 We are not responsible for any harm that it could cause to your system or Docker Hub's infrastructure.
 
-## Requirements
+## Requirements for *nix
 - Ubuntu 16.04.5 LTS*: http://releases.ubuntu.com/16.04/ (required)  
 - Python 3.6.x: https://www.python.org/downloads/ (required)
 - Docker: https://www.docker.com/get-started (required)
@@ -47,18 +47,14 @@ We are not responsible for any harm that it could cause to your system or Docker
 *Note: more recent Ubuntu versions and other Debian-based distributions should also work but they have not been tested. 
 
 
-<!--
 ## Requirements for Windows
-- Git: https://git-scm.com/downloads
-- Go: https://golang.org/doc/install
-- Make: http://gnuwin32.sourceforge.net/packages/make.htm
-- Dep: https://github.com/golang/dep/releases/download/v0.4.1/dep-windows-amd64.exe
-- Docker: https://hub.docker.com/editions/community/docker-ce-desktop-windows
-- Anaconda (strongly recommended): https://www.anaconda.com/distribution/
-/
-Make sure to add dep to path (typically this particular path)
-C:\Program Files (x86)\GnuWin32\bin
--->
+- Git: https://git-scm.com/downloads (required)
+- Docker: https://hub.docker.com/editions/community/docker-ce-desktop-windows (required)
+- Anaconda: https://www.anaconda.com/distribution/ (strongly recommended)
+- Clair scanner: https://github.com/arminc/clair-scanner (required)
+- Valid Docker Hub credentials: https://hub.docker.com/signup (required)
+- MongoDB: https://resources.mongodb.com/getting-started-with-mongodb (recommended)
+
 
 ## Prerequisite
 It is up to you whether you want to use the Clair binary (recommended) or install it from source on your local machine.
@@ -86,7 +82,7 @@ Important: make sure Clair scanner and the Clair database are using the "latest"
 ## Getting Started
 1. Clone this repository
 
-       git clone https://github.com/jonalu14/DAZER.git
+       git clone https://github.com/dockalyzer/dazer
 
 2. Add your Docker Hub credentials to the credentials.yml file.
 3. Navigate to its root directory and install all the necessary Python packages using the following command:

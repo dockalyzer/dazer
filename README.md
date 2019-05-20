@@ -82,7 +82,7 @@ Important: make sure Clair scanner and the Clair database are using the "latest"
 ## Getting Started
 1. Clone this repository
 
-       git clone https://github.com/dockalyzer/dazer
+       git clone https://github.com/dockalyzer/dazer.git
 
 2. Add your Docker Hub credentials to the credentials.yml file.
 3. Navigate to its root directory and install all the necessary Python packages using the following command:
